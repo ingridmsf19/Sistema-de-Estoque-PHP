@@ -6,13 +6,13 @@ global $db;
 
 $config = array();
 if(ENVIRONMENT == 'development') {
-	define("BASE_URL", "http://localhost:8080/estoque/");
+	define("BASE_URL", "http://localhost:8080/php/estoque/");
 	$config['dbname'] = 'estoque';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = '';
 } else {
-	define("BASE_URL", "http://localhost/estoque/");
+	define("BASE_URL", "http://localhost/php/estoque/");
 	$config['dbname'] = 'nova_loja';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
