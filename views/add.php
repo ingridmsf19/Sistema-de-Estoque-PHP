@@ -1,5 +1,7 @@
 <h1>Adicionar Produto</h1>
 
+<a href="<?php echo BASE_URL; ?>">Voltar</a>
+
 <form method="POST">
     Codigo de Barras:<br>
     <input type="text" name="cod"> <br><br>
