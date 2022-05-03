@@ -7,12 +7,17 @@
                 <a class="btn btn-primary font-weight-bold" href="<?php echo BASE_URL; ?>home/add">Adicionar Produto</a>
 
                 <a class="btn btn-success font-weight-bold" href="<?php echo BASE_URL; ?>relatorio">Relatorio</a> 
+
             </div>
         </div>
     </Form>
+    <div>
+        <a class="btn btn-danger font-weight-bold" href="<?php echo BASE_URL; ?>login/sair">Sair</a>
+    </div>
+    
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <table class="table table-striped table-hover border border-dark">
 
         <thead class="thead-dark ">

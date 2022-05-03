@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="./Formatacao/login.css">
+<link rel="stylesheet" href="./Formatacao/css/login.css">
 
 <div class="card text-center container d-flex justify-content-center" id="telaLogin" style="width: 25rem;">
     <div class="card-body">
