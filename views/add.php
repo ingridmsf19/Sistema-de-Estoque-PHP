@@ -1,22 +1,42 @@
-<h1>Adicionar Produto</h1>
-
-<a href="<?php echo BASE_URL; ?>">Voltar</a>
+<div class="navbar bg-primary text-light d-flex justify-content-center mb-5">
+    <h2>Adicionar Produto</h2>
+</div>
 
 <form method="POST">
-    Codigo de Barras:<br>
-    <input type="text" name="cod"> <br><br>
+    <div class="container border d-flex justify-content-center card">
+        <div class="row ">
+            <div class="col mt-2">
 
-    Nome do Produto:<br>
-    <input type="text" name="name"> <br><br>
+                <h4 class="">Código de Barras:</h4>
+                <input class="form-control mb-3 mt-1" type="text" name="cod" autofocus>
 
-    Preço do Produto: <br>
-    <input type="text" name="price"> <br><br>
+                <h4 class="">Preço do Produto:</h4>
+                <input class="form-control mb-3 mt-1" type="text" name="price">
 
-    Quantidade:<br>
-    <input type="text" name="quantity"> <br><br>
+            </div>
+            <div class="col mt-2">
 
-    Qtd. Mínima: <br>
-    <input type="text" name="min_quantity"> <br><br>
+                <h4 class="">Nome do Produto:</h4>
+                <input class="form-control mb-3 mt-1" type="text" name="name">
 
-    <input type="submit" value="Adicionar Produto">
+                <h4 class="">Qtd. Mínima:</h4>
+                <input class="form-control mb-3 mt-1" type="text" name="min_quantity">
+
+            </div>
+            <div class="col mt-2">
+
+                <h4 class="">Quantidade:</h4>
+                <input class="form-control mb-3 mt-1" type="text" name="quantity">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col mb-3 d-flex justify-content-center">
+                <input type="submit" class="btn btn-primary btn-lg mr-1 font-weight-bold" value="Adicionar Produto">
+
+                <a class="btn btn-success btn-lg font-weight-bold" href="<?php echo BASE_URL; ?>">Voltar</a>
+
+            </div>
+        </div>
+    </div>
 </form>

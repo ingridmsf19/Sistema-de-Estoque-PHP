@@ -1,17 +1,18 @@
-<div class="container-fluid mt-3">
+<div class="navbar navbar-light  bg-dark mb-3">
+    <Form method="GET" class="container">
+        <div class="input-group">
+            <input type="text" class="form-control input" id="busca" name="busca" value="<?php echo (!empty($_GET['busca'])) ? $_GET['busca'] : ''; ?>" placeholder="Digite o codigo de barras ou o nome do produto..." aria-label="Recipient's username with two button addons" aria-describedby="button-addon4" autofocus>
 
-    <a class="btn btn-primary" href="<?php echo BASE_URL; ?>home/add">Adicionar Produto</a>
-  
-    <a class="btn btn-success" href="<?php echo BASE_URL; ?>relatorio">Relatorio</a><br><br>
+            <div class="input-group-append" id="button-addon4">
+                <a class="btn btn-primary font-weight-bold" href="<?php echo BASE_URL; ?>home/add">Adicionar Produto</a>
+
+                <a class="btn btn-success font-weight-bold" href="<?php echo BASE_URL; ?>relatorio">Relatorio</a> 
+            </div>
+        </div>
+    </Form>
 </div>
 
-<div class="input-group mb-3">
-    <form method="GET" class="container-fluid ">
-        <input type="text" id="busca" name="busca" value="<?php echo (!empty($_GET['busca'])) ? $_GET['busca'] : ''; ?>" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Digite o codigo de barras ou o nome do produto..." autofocus>
-    </form>
-</div>
-
-<div class="container-fluid">
+<div class="container">
     <table class="table table-striped table-hover border border-dark">
 
         <thead class="thead-dark ">
@@ -32,7 +33,7 @@
                 <td>R$ <?php echo number_format($item['price'], 2, ',', '.'); ?></td>
                 <td><?php echo $item['quantity']; ?></td>
                 <td>
-                    <a href="<?php echo BASE_URL; ?>home/edit/<?php echo $item['id']; ?>">Editar</a>
+                    <a class="btn btn-warning text-light font-weight-bold" href="<?php echo BASE_URL; ?>home/edit/<?php echo $item['id']; ?>">Editar</a>
                 </td>
             </tr>
 
