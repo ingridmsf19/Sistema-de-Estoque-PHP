@@ -18,7 +18,7 @@ Criando um controle de estoque com MVC em PHP com os seguintes pontos:
 
 # Página de login
 
-![estoque-login](https://user-images.githubusercontent.com/81247538/166501233-0a9bf00e-28ba-4eb5-9e7d-5bcb48b393ed.png)
+![estoque-login](https://user-images.githubusercontent.com/81247538/166509303-9000151d-e050-4c55-a89a-b63639385f5a.png)
 
 # Home 
 
