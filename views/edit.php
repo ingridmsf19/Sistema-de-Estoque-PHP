@@ -42,3 +42,7 @@
         </div>
     </div>
 </form>
+
+<?php if(!empty($warning)): ?>
+<div class="warning"><?php echo $warning; ?></div>
+<?php endif; ?>

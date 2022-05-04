@@ -33,9 +33,9 @@
 
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-	<script src="<?php echo BASE_URL; ?>./Formatacao/js/jquery.mask.js"></script>
+	<!-- <script src="<?php echo BASE_URL; ?>./Formatacao/js/jquery.mask.js"></script>
 
-	<script src="<?php echo BASE_URL; ?>./Formatacao/js/scripts.js"></script>
+	<script src="<?php echo BASE_URL; ?>./Formatacao/js/scripts.js"></script> -->
 
 
 </body>
